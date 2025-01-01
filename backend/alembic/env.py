@@ -1,7 +1,7 @@
 from alembic import context
 
 from core.config import settings
-from db.base_class import Base
+from db.base import Base
 
 config = context.config
 
